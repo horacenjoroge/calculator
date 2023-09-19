@@ -50,3 +50,21 @@ button[onclick="calculateResult()"] {
     background-color: #ff6600;
     color: #fff;
 }
+button {
+    /* Your existing button styles here */
+    /* ... */
+    transition: background-color 0.2s;
+    /* Smooth transition for background color */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #ffcc00;
+    /* Change the background color on hover */
+}
+
+/* Click (active) effect */
+button:active {
+    background-color: #ff9900;
+    /* Change the background color when the button is clicked */
+}
